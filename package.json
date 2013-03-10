@@ -1,0 +1,33 @@
+{
+	"name": "docpad-plugin-datefromfilename",
+	"version": "1.0.0",
+	"description": "DocPad plugin for specifying document dates at the beginning of their filenames",
+	"homepage": "https://github.com/grassator/docpad-plugin-datefromfilename",
+	"keywords": [
+		"docpad",
+		"docpad-plugin",
+		"date"
+	],
+	"author": "Dmitriy Kubyshkin <dmitriy@kubyshkin.ru> (http://kubyshkin.ru)",
+	"maintainers": [
+		"Dmitriy Kubyshkin <dmitriy@kubyshkin.ru> (https://github.com/grassator)"
+	],
+	"contributors": [
+		"Dmitriy Kubyshkin <dmitriy@kubyshkin.ru> (https://github.com/grassator)"
+	],
+	"bugs": {
+		"url": "https://github.com/grassator/docpad-plugin-datefromfilename/issues"
+	},
+	"repository" : {
+		"type": "git",
+		"url": "http://github.com/grassator/docpad-plugin-datefromfilename.git"
+	},
+	"engines" : {
+		"node": ">=0.4",
+		"docpad": "6.x"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.4.0"
+	},
+	"main": "./out/datefromfilename.plugin.js"
+}

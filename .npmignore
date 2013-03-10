@@ -1,0 +1,5 @@
+.travis*
+Makefile
+Cakefile
+
+src/
