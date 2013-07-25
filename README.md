@@ -28,5 +28,13 @@ plugins:
 		removeDate: true
 ```
 
+You can customize the regular expression used to parse dates from filenames with `dateRegExp`:
+
+```coffee
+plugins:
+  datefromfilename:
+    dateRegExp: /\b(\d{4})-(\d{2})-(\d{2})-/
+```
+
 ## License
 Licensed under the incredibly [permissive](http://en.wikipedia.org/wiki/Permissive_free_software_licence) [MIT License](http://creativecommons.org/licenses/MIT/)
