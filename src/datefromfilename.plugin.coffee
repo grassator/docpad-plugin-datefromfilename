@@ -1,4 +1,3 @@
-dateRegExp = /\b(\d{4})[-_ ]?(\d{2})[-_ ]?(\d{2})[-_ ]?/
 
 module.exports = (BasePlugin) ->
 
@@ -8,10 +7,11 @@ module.exports = (BasePlugin) ->
     
     config:
       removeDate: false
+      dateRegExp: /\b(\d{4})[-_ ]?(\d{2})[-_ ]?(\d{2})[-_ ]?/
 
     renderBefore: (opts, next) ->
       {collection, templateData} = opts
-      config = @config
+      {removeDate, dateRegExp} = @config
 
       collection.forEach (document) ->  
             
@@ -19,7 +19,7 @@ module.exports = (BasePlugin) ->
         return unless date = document.get('basename').match(dateRegExp)
         
         # Removing date from output filename if necessary
-        if config.removeDate
+        if removeDate
           document.id = document.id.replace(dateRegExp, '')
           document.set('basename', document.get('basename').replace(dateRegExp, ''))
           document.set('outPath', document.get('outPath').replace(dateRegExp, ''))
