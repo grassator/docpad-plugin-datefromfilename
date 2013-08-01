@@ -24,7 +24,7 @@ By default, this plugin does not remove date part from output filename. This can
 
 ``` coffee
 plugins:
-	dateformfilename:
+	datefromfilename:
 		removeDate: true
 ```
 
