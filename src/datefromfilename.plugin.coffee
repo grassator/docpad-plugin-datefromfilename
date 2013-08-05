@@ -23,7 +23,7 @@ module.exports = (BasePlugin) ->
           document.id = document.id.replace(dateRegExp, '')
           document.set('basename', document.get('basename').replace(dateRegExp, ''))
           document.set('outPath', document.get('outPath').replace(dateRegExp, ''))
-          document.set('url', document.get('url').replace(dateRegExp, ''))
+          document.setUrl(document.get('url').replace(dateRegExp, ''))
 
         # Date from has priority over filename
         unless document.getMeta().get('date')
