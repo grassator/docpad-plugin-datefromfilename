@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-datefromfilename",
-	"version": "2.0.4",
+	"version": "3.0.0",
 	"description": "DocPad plugin for specifying document dates at the beginning of their filenames",
 	"homepage": "https://github.com/grassator/docpad-plugin-datefromfilename",
 	"keywords": [
@@ -8,12 +8,12 @@
 		"docpad-plugin",
 		"date"
 	],
-	"author": "Dmitriy Kubyshkin <dmitriy@kubyshkin.ru> (http://kubyshkin.ru)",
+	"author": "Dmitriy Kubyshkin <dmitriy@kubyshkin.name> (https://everythingfrontend.com)",
 	"maintainers": [
-		"Dmitriy Kubyshkin <dmitriy@kubyshkin.ru> (https://github.com/grassator)"
+		"Dmitriy Kubyshkin <dmitriy@kubyshkin.name> (https://github.com/grassator)"
 	],
 	"contributors": [
-		"Dmitriy Kubyshkin <dmitriy@kubyshkin.ru> (https://github.com/grassator)"
+		"Dmitriy Kubyshkin <dmitriy@kubyshkin.name> (https://github.com/grassator)"
 	],
 	"bugs": {
 		"url": "https://github.com/grassator/docpad-plugin-datefromfilename/issues"
